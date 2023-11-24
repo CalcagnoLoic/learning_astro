@@ -19,14 +19,12 @@ const goal = 3;
 const skillColor = "navy";
 const fontWeight = "bold";
 const textCase = "uppercase";
+
+
 ---
 
 <BaseLayout pageTitle={pageTitle}>
     <style define:vars={{skillColor,fontWeight, textCase}}>
-        h1 {
-            color: purple;
-            font-size: 2.5rem;
-        }
         .skill {
             color: var(--skillColor);
             font-weight: var(--fontWeight);
@@ -34,7 +32,6 @@ const textCase = "uppercase";
         }
     </style>
 
-    <h1>{pageTitle}</h1>
     <h2>... and my new Astro site!</h2>
 
     <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>

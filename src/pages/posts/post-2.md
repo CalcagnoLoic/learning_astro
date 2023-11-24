@@ -12,3 +12,5 @@ tags: ["astro", "blogging", "learning in public", "successes"]
 After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!
 
 [Return to the list of blog](/blog)
+
+[Return to the list of tag](/tags)

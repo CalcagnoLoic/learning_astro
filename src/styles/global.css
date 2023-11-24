@@ -20,6 +20,32 @@ h1 {
     font-size: 2.5rem;
 }
 
+.span_tag {
+    font-style: italic;
+    cursor: pointer;
+}
+.span_tag:hover {
+    text-decoration: underline;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    margin: 0.25em;
+    border: dotted 1px #a1a1a1;
+    border-radius: .5em;
+    padding: .5em 1em;
+    font-size: 1.15em;
+    background-color: #F8FCFD;
+}
+
+a{
+    color: rgb(34, 32, 32);
+}
+
 /* nav styles */
 .hamburger {
     padding-right: 20px;
